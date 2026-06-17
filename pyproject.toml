@@ -1,0 +1,19 @@
+[project]
+name = "chew-cadence"
+version = "0.1.0"
+description = "Chewing cadence entrainment: estimate a rhythm and perturb it, with an honest control"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "soundfile",
+    "sounddevice",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["chew"]
+py-modules = ["config"]
