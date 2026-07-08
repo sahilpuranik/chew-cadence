@@ -5,6 +5,43 @@ baseline, and nudge me with a quiet little cue — with OFF/REAL/SHAM modes so i
 tell real entrainment apart from me just reacting to being watched. solo project to
 teach myself some DSP + closed-loop control.
 
+## why i'm actually building this
+
+i eat too fast, and it messes with my stomach - bloating, that overly-stuffed
+feeling, indigestion after basically every meal. i know i'm not the only one, a lot
+of people who eat fast deal with this same stuff. slowing down is the standard
+advice every doctor gives, but "just eat slower" never sticks for me because i have
+no real-time feedback that i'm speeding up until i'm already uncomfortably full.
+
+so instead of relying on willpower i wanted something that actually measures my
+chewing rate and tells me the moment it drifts up, the same way a smartwatch buzzes
+you for standing up too little. if this works on me, the plan is to eventually turn
+it into a proper macOS app (menu bar thing, mic access, no weird hardware) so other
+people who eat too fast could use it too.
+
+this isn't just a vibe, there's real research behind why eating speed matters:
+
+- eating a meal in 5 minutes instead of 30 causes measurably more reflux episodes in
+  healthy people ([Intake of a standard meal within 5 min was associated with more
+  reflux episodes than an intake within 30 min](https://europepmc.org/article/med/15330896))
+- women with functional dyspepsia (chronic indigestion) report eating meals rapidly
+  far more often than people without it ([The Speed of Eating and Functional
+  Dyspepsia in Young Women](https://pmc.ncbi.nlm.nih.gov/articles/PMC2886943/))
+- chewing more per bite (40 chews vs 15) lowers hunger hormone (ghrelin) and raises
+  satiety hormones (GLP-1, CCK), in both lean and obese subjects ([Improvement in
+  chewing activity reduces energy intake and modulates plasma gut hormone
+  concentrations](https://pubmed.ncbi.nlm.nih.gov/21775556/))
+- more masticatory cycles before swallowing lowers hunger/preoccupation with food
+  and shifts gut hormones favorably ([Increasing the number of masticatory cycles is
+  associated with reduced appetite](https://doi.org/10.1017/s0007114512005053))
+- it takes the brain 20-30 minutes to register fullness, so eating fast means you
+  blow past that signal before it ever arrives (Cleveland Clinic, Northwestern
+  Medicine - see their patient-facing writeups on eating speed)
+
+none of that proves a sound cue will fix my chewing rate, that's literally what
+phase 5 is for. but it's why i think this is worth building instead of just another
+"eat slower" reminder i'll ignore.
+
 ## setup
 
 ```sh
