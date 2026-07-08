@@ -46,7 +46,4 @@ python scripts/phase3_baseline.py recordings/synthetic.wav --calibration 30
   done when there's a REAL-vs-SHAM difference i can see and actually believe if i'm
   honest with myself. a clean null is a real result too.
 
-## limits (being honest with myself)
 
-n=1, unblinded, single sensor, crunchy food in a quiet room. this thing doesn't
-understand eating — it estimates a rhythm and pokes at it, with an honest control.
